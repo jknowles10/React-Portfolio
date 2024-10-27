@@ -5,7 +5,7 @@ export default function PortfolioPage()  {
     <h2>
     Pantry Pals
     </h2>
-    <img src="/pantrypals.png" />
+    <img src="/pantrypals.png" width="500" height="400"/>
     <p className="proj-desc">
     An application designed to help users keep track of pantry items to reduce food waste.
     </p>
@@ -15,7 +15,7 @@ export default function PortfolioPage()  {
     <h2>
     Marvel Meteorology
     </h2>
-    <img src="/marvelweatherapp.png" />
+    <img src="/marvelweatherapp.png" width="500" height="400"/>
      <p className="proj-desc">
      Weather application using the Marvel API and OpenWeather API.
     </p>
@@ -25,7 +25,7 @@ export default function PortfolioPage()  {
     <h2>
     Weather Dashboard
     </h2>
-    <img src="/weatherdashboard.png" />
+    <img src="/weatherdashboard.png" width="500" height="400"/>
     <p className="proj-desc">
     Weather application using OpenWeather API.
     </p>
