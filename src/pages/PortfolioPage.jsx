@@ -1,20 +1,21 @@
-export default function PortfolioPage() {
+export default function PortfolioPage()  {
 
-  return (
+  return ( 
   <div>
     <h2>
     Pantry Pals
     </h2>
-    <img src="/public/assets/pantrypals.png" />
+    <img src="/pantrypals.png" />
     <p className="proj-desc">
     An application designed to help users keep track of pantry items to reduce food waste.
+    </p>
     <p>
     <a href="https://github.com/mlipscomb24/P2-Pantry_Pals" target="_blank">Github Link</a>             
     </p>
     <h2>
     Marvel Meteorology
     </h2>
-    <img src="/public/assets/marvelweatherapp.png" />
+    <img src="/marvelweatherapp.png" />
      <p className="proj-desc">
      Weather application using the Marvel API and OpenWeather API.
     </p>
@@ -24,7 +25,7 @@ export default function PortfolioPage() {
     <h2>
     Weather Dashboard
     </h2>
-    <img src="/public/assests/weatherdashboard.png" />
+    <img src="/weatherdashboard.png" />
     <p className="proj-desc">
     Weather application using OpenWeather API.
     </p>
@@ -43,8 +44,7 @@ export default function PortfolioPage() {
     </p>
 
 </div> 
-
-); 
+);
 }
 
-
+  

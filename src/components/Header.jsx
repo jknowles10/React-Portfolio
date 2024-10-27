@@ -1,17 +1,19 @@
 import React from 'react';
-import '../styles/Header.css';
+import { Link } from 'react-router-dom';
+import HeaderBar from './UI/HeaderBar';
 
 function Header() {
   return (
-    <header className="header">
-      <a href="#home" className="logo">Portfolio</a>
-      <nav className="navbar">
-        <a href="#home" className="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#portfolio">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+    <HeaderBar
+    links={[
+      <Link key={1} to="/">
+        About
+      </Link>,
+      <Link key={2} to="/PortfolioPage">
+      Portfolio
+    </Link>
+    ]}
+    />
   );
 }
 
